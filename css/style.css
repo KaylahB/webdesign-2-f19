@@ -1,148 +1,426 @@
-@charset "UTF-8";
-/* CSS Document */
-.header {
-  width: 100%;
-  padding: 100px 0;
-  float: left;
-  background-color: #ffffff; 
-}
-
-.logo{
-  width:300px;
-  height:200px;
-  float:left;
-  margin-top:-7px;
-  background: url("../images/https://s3-us-west-2.amazonaws.com/s.cdpn.io/3535792/big%20type.svg") no-repeat;
-  
-}
-
-
-
-.home:{
-  margin-top:77px; 
-}
-
-.home,
-.news,
-.campaign,
-.about,
-.contact{
-  width:100%;
-  padding:100px 0;
-}
-
-.home,
-.campaign,
-.contact{
-  background :lightgrey; 
-  
-}
+/* header */
 
 header{
-  width: 100%;
-  height: 80px;
-  position: fixed;
-  top: 0;
-  z-index: 500;
-  padding:15px 0 8px 0;
-  background-color:#C4B253;
+	width: 100%;
+	background-color:#937127;
+	position: fixed;
+	top:0;
+	z-index: 1000;
+	padding: 15px 10px 8px 0;
 }
-
-.branding {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3535792/big%20type.jpg) no-repeat;
-  width: 170px;
-  height: 40px;
-  float: left;
-  text-indent:-999em;
-}
-.branding a: link{
-  color:#56627A;
-  text-decoration:none;
-  
+.logo{
+	width: 350px;
+	height: 900px;
+	position:fixed;
+	float :left;
+	margin-top: -7px;
+	background: url("../images/logo-ella-fitz.svg")no-repeat;
+	
 }
 
 nav{
-  margin-top: 10px;
-  float: right; 
-  
+	
+	float:right;
 }
 
 nav ul{
-  list-style-type:none;
-  text-align:right;
-   
+	list-style-type: none;
+	text-align: right;
 }
 
-nav li{
-  font-family:'Roboto',sans-serif;
-  font-weight:900;
-  font-size:.8em;
-  text-transform:uppercase;
-  letter-spacing:.1em;
-  display:inline-block;
-  margin-left:20px;
-  cursor:pointer;
+nav li {
+	display: inline-block;
+	font-size: .6em;
+	font-weight:600;
+	text-transform :uppercase;
+	letter-spacing:.1em;
+	padding-left: 20px;
+	cursor: pointer ;
+	
 }
-
-nav li a:link {
-  color:#091c5a;
-  text-decoration:none;
+nav li a:link{
+	color:#FFFFFF;
+	text-decoration:none;
 }
-nav li a :visited {
-  color:#091c5a;
-  text-decoration:none;
-}
-
-nav li a:hover {
-  color:#ff6600;
-  text-decoration:none;
-  
-}
+nav li a:visited{
+	color:#FFFFFF;
+	
+	}
+	nav li a:hover{
+	color:#FFFFFF;
+ 	text-decoration: none;
+	}
+	
 nav li a:active{
-  color:#ff6600;
-  text-decoration:none;
+	color:#FFFFFF;
 }
 
-/*headroom*/
-
-.headroom{
-  transition:transform 200ms linear;
+.section-head{
+	text-align: center;
+	margin-bottom:45px;
+	margin-top:0;
 }
-.headroom--pinned{
-  transform:translateY(0%); 
+.section-copy{
+	text-align: center;
+	font-size:1.2em;
+	
 }
-.headroom--unpinned{
-  transform:translateY(-100%);
+	
+/*hero image*/
+
+
+	
+
+
+.hero-image{
+	width: 100%;
+	max-height:2000px;
+	overflow: hidden;
+	
+}
+img{
+	
+	width:100%;
+	display: block;
+	
+	
 }
 
-/* Hero image */
-
-.hero-image-container{
-  width: 100%;
-  height:100%;
-  display: block;
-  position:relative;
-  
-}
-
-.type-overlay h1{
-  width:100%;
-  position: absolute;
-  top:250px;
-  z-index:5;
-  text-align:center;
-  text-transform:uppercase;
+.hero-overlay{
+	position:absolute;
+	top:600px;
+	width: 940px;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	overflow: visible;
+	
+	
 }
 
 
+.hero-headline{
+	text-align: center;
+	
+	
+}
+
+/*introduction*/
+
+/*biography*/
+.biography{
+	width: 100%;
+	padding: 100px;
+background:#234441;
+}
+
+.biography{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color:#234441;
+	
+}
+
+.biography img{
+	border-radius:0%;
+	margin-top:0;
+	padding-bottom: 20px;
+} 
+
+.biography-head{
+	text-align: center;
+	margin-bottom:3px;
+	margin-top:0;
+} 
+
+ 
+.discography{
+	width: 200%;
+	padding: 100px;
+ background: url("../images/ella.jpg")no-repeat;
+}
+
+.discography{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color:#efefef;
+	
+} 
+
+.discography img{
+	border-radius: 17%;
+	padding-bottom: 20px;
+}
+ 
 
 
 
 
+.albums{
+	width: 100%;
+	padding: 100px  100px 0;
+background:#234441;
+}
+
+.albums{
+	width: 100%;
+	padding: 100px 100px 100px 100px;
+	background-color:#234441;
+	
+}
+ 
+.albums img{
+	border-radius: 17%;
+	padding-bottom: 20px;
+}
+.career{
+	width: 100%;
+	padding: 100px 0 100px 0;
+background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+}
+
+.career{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color:#efefef;
+	padding-bottom:-20px;
+	
+}
+.career img{
+	border-radius: 17%;
+	padding-bottom: 20px;
+}
+
+.career-copy{
+	margin-bottom: 20px;
+	margin-left:14px;
+	
+}
+
+/*modern-influence*/
+
+.modern-influence{
+	width:100%;
+	padding: 100px 0;
+background:#234441;
+	
+}
+
+.modern-influence-subhead{
+	text-align: center;
+	margin-left: 60px;
+	 
+	
+}
+
+.modern-influence-copy{
+	margin-bottom: 20px;
+	margin-left:14px;
+	text-align: center;	
+}
+
+
+.accommodations{
+	
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background: rgb(34,93,157);
+background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+	padding-bottom:20px;
+	padding-top: 20px;
+}
+.accommodations img{
+	border-radius: 20%;
+	padding-bottom: 30px;
+}
+
+.accommodations-copy{
+	margin-bottom: 20px;
+	margin-left:14px;
+	
+}
+
+
+
+/*Customer Testimonials*/
+
+.testimonials {
+	width:100%;
+	padding: 100px 0;
+	background: rgb(34,93,157);
+background: linear-gradient(90deg, rgba(34,93,157,1) 18%, rgba(9,23,46,1) 100%);
+}
+	
+
+.testimonials img{
+	width:200px;
+	margin-left:0px;
+	margin-bottom:10px;
+	border-radius:20%;
+	padding-bottom:-40px;
+	
+}
+
+.testimonial-txt{
+margin-left:40px;	
+width: 300px;
+padding: 10px 20px;
+}
+
+.testimonial-copy{
+	margin-left:-1px;
+	width: 300px;
+	text-align:left;
+
+	
+}
 
 
 
 
+.fa-github,
+.fa-html5,
+.fa-wrench,
+.fa-file-pdf,
+.fa-codepen{
+	color:#696969;
+	font-size: 2.5em;
+	margin-bottom:10px;
+	margin-top: 20px;
+}
+
+.fa-css3{
+	color:#696969;
+	font-size: 2.3em;
+	margin-bottom:10px;
+	margin-top: 20px;
+	
+	
+}
 
 
 
+/*contact us*/
+
+.contact{
+	width: 100%;
+	padding: 100px 0;
+	background: rgb(9,23,46);
+background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+	
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form select{
+	width:360px;
+	height:35px;
+	margin-bottom:25px;
+	padding: 5px 5px 5px 10px;
+	border: 1px solid #dadada;
+	color:#888888;
+	font-weight:100;
+	border-radius: 20px;
+}
+
+.contact-form textarea {
+	height:200px;
+} 
+
+.contact img{
+	border-radius: 17%;
+}
+
+.city{
+	text-transform:uppercase;
+	font-weight:900;
+}
+
+/*footer*/
+
+footer{
+	width: 100%;
+	padding: 50px 0 50px 0;
+	text-align: center;
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,23,46,1) 0%);
+}
+
+footer a :link{
+	color:#959595;
+	text-decoration:none;
+	
+}
+
+footer a :visited{
+	color:#959595;
+	text-decoration:none;
+	
+}
+
+footer a :hover{
+	color:#ffffff;
+	text-decoration:none;
+	
+}
+
+footer a :active{
+	color:#ffffff;
+	text-decoration:none;
+	
+}
+
+footer img{
+	height:40px;
+	width:40px;
+	padding:20px;
+	
+}
+
+.copyright{
+	width: 100%;
+	color:#959595;
+}
+.copyright p {
+	margin-bottom: 0;
+}
+.fa-unesco,
+.fa-snapchat,
+.fa-twitter,
+.fa-facebook-f{
+	font-size: 2em;
+	margin: 20px 5px 0 5px;
+	color: #B7D8FF;
+}
+.fa-unesco:hover,
+.fa-snapchat:hover,
+.fa-twitter:hover,
+.fa-facebook-f:hover{
+	color: #ffffff;
+
+
+}
+
+.logo-un{
+	width: 50px;
+	height: 40px;
+	position:fixed;
+	float :left;
+	margin-top: 20px;
+	background: url("../images/UNESCO-logo 2.svg")no-repeat;
+}
+/*desktopand and laptops*/
+
+@media only screen and (min-width : 1224px) {
+	
+	video{
+		width: 100%;
+		
+	}
+	
+	
+	
+	
+}
