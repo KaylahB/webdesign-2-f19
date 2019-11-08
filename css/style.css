@@ -173,8 +173,20 @@ background:#234441;
 }
  
 
+.atist-small{
+	width:100%;
+	float:left;
+	padding:100px 0;
+	background-color: #050304;
+}
 
-
+.artist-large{
+	width: 100%;
+	float:left;
+	padding: 100px 0;
+	background-color: #f6f6f6;
+	
+}
 
 .albums{
 	width: 100%;
@@ -238,6 +250,15 @@ background:#234441;
 	margin-bottom: 20px;
 	margin-left:14px;
 	text-align: center;	
+}
+.modern-influence img{
+	width:99px;
+	height:200 ;
+	margin-left:0px;
+	margin-bottom:10px;
+	border-radius:20%;
+	padding-bottom:-40px;
+	
 }
 
 
