@@ -31,7 +31,7 @@ nav ul{
 
 nav li {
 	display: inline-block;
-	font-size: .6em;
+	font-size: .8em;
 	font-weight:600;
 	text-transform :uppercase;
 	letter-spacing:.1em;
@@ -74,9 +74,10 @@ nav li a:active{
 
 
 .hero-image{
-	width: 100%;
+	width:100%;
 	max-height:2000px;
 	overflow: hidden;
+	
 	
 }
 img{
@@ -90,12 +91,12 @@ img{
 .hero-overlay{
 	position:absolute;
 	top:600px;
-	width: 940px;
+	width: 840px;
 	z-index: 100;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	overflow: visible;
-	
+	 
 	
 }
 
@@ -111,22 +112,22 @@ img{
 /*biography*/
 .biography{
 	width: 100%;
-	padding: 100px;
-background:#234441;
+	padding: 100px 100px 100px 100px;
+	background-color:#234441;
 }
 
 .biography{
 	width: 100%;
-	padding: 100px 0 100px 0;
+	padding: 100px 100px 100px 100px;
 	background-color:#234441;
-	
 }
 
 .biography img{
 	border-radius:0%;
-	margin-top:0;
-	padding-bottom: 20px;
+	margin-top:-100;
+	padding-bottom:30px;
 } 
+
 
 .biography-head{
 	text-align: center;
@@ -134,19 +135,22 @@ background:#234441;
 	margin-top:0;
 } 
 
-.live-proformances{
-	width:100%;
-	padding: 100px 0 100px 0;
- background: url("../images/ellafitzgerald-hero.svg")no-repeat;
+.live-preformances{
+		width: 100%;
+	padding: 100px 100px 100px 100px;
+	background-color:#234441;
+ background: url("../images/Ella(1).svg")no-repeat;
+	
 }
-.live-proformances{
+.live-preformances{
 	width: 100%;
-	padding: 100px 0 100px 0;
-	background-color:#efefef
+	padding: 100px 100px 100px 100px;
+	background-color:#234441;
+	margin-right: auto;
 	
 }
 
-.live-proformances img{
+.live-preformances img{
 	
 	border-radius: 0%;
 	padding-bottom: 10px;
@@ -372,11 +376,7 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 
 .contact img{
 	border-radius: 17%;
-}
 
-.city{
-	text-transform:uppercase;
-	font-weight:900;
 }
 
 /*footer*/
@@ -384,13 +384,12 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 footer{
 	width: 100%;
 	padding: 50px 0 50px 0;
-	text-align: center;
-	background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,23,46,1) 0%);
+	text-align: left;
+	background:#BB9236;
 }
 
 footer a :link{
-	color:#959595;
+	color:#937127;
 	text-decoration:none;
 	
 }
@@ -402,13 +401,13 @@ footer a :visited{
 }
 
 footer a :hover{
-	color:#ffffff;
+	color:#937127;
 	text-decoration:none;
 	
 }
 
 footer a :active{
-	color:#ffffff;
+	color:#937127;
 	text-decoration:none;
 	
 }
@@ -422,24 +421,22 @@ footer img{
 
 .copyright{
 	width: 100%;
-	color:#959595;
+	color:#937127;
 }
 .copyright p {
 	margin-bottom: 0;
 }
-.fa-unesco,
-.fa-snapchat,
+
 .fa-twitter,
 .fa-facebook-f{
 	font-size: 2em;
 	margin: 20px 5px 0 5px;
-	color: #B7D8FF;
+	color:#937127;
 }
-.fa-unesco:hover,
-.fa-snapchat:hover,
+
 .fa-twitter:hover,
 .fa-facebook-f:hover{
-	color: #ffffff;
+	color: #937127;
 
 
 }

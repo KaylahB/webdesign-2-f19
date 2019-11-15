@@ -3,7 +3,7 @@
 	body {
 		
 		color:#E6F2FF;
-		font-family:'Abel', sans-serif;;
+		font-family:'Abel', sans-serif;
 		font-style : normal;
 		font-weight:300;
 		line-height: 1.7em;
@@ -23,6 +23,8 @@ h1{
 	font-weight:500;
 	font-size:.250em;
 	line-height:1.1;
+	margin:230px;
+	text-align: center;
 }
 h2{
 	font-family:'Great Vibes', cursive;
@@ -31,38 +33,41 @@ h2{
 	line-height:1.1;
 }
 
-h3{font-family:'Raleway', sans-serif;
+h3{font-family:'Abel', sans-serif;
     font-weight:500;
 	font-size:1.500em;
 	line-height:1.1;
 	
 }
-h4{font-family:'Raleway', sans-serif;
+h4{font-family:'Abel', sans-serif;
     font-weight:900;
 	font-size:1em;
 	line-height:1.1;
 
 }
 h5{
-	font-family:'Raleway', sans-serif;
+	font-family:'Abel', sans-serif;
     font-weight:900;
 	font-size:1em;
 	line-height:1.1;
 }
-h6{font-family:'Raleway', sans-serif;
+h6{font-family:'Abel', sans-serif;
     font-weight:500;
 	font-size:1em;
 	line-height:1.1;
 }
 		
 	h1{
-		font-family:'Raleway', sans-serif;
-	    font-size: 48px;
+		font-family:'Great Vibes', cursive;
+	    font-size:60px;
+		text-align: center;
+		 
 	
 	}
 	.large-text{
-		font-size: 20px;
+		font-size:60px;
 		line-height: 1.4;
+		
 	}
 	
 	.small-text{
@@ -84,7 +89,8 @@ h6{font-family:'Raleway', sans-serif;
 	.columns_2{
 		width: 460px;
 		float:left;
-		margin-right: 20px;
+		margin-right:20px;
+		padding: 0;
 	}
 
 	.columns_2:last-of-type{
