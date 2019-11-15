@@ -9,11 +9,13 @@ header{
 	padding: 15px 10px 8px 0;
 }
 .logo{
-	width: 350px;
-	height: 900px;
+	
+	width:15%;
+	height: 500px;
 	position:fixed;
 	float :left;
-	margin-top: -7px;
+	margin-top:-10px;
+	padding-left:40px;
 	background: url("../images/logo-ella-fitz.svg")no-repeat;
 	
 }
@@ -35,7 +37,7 @@ nav li {
 	font-weight:600;
 	text-transform :uppercase;
 	letter-spacing:.1em;
-	padding-left: 20px;
+	padding-right:10px;
 	cursor: pointer ;
 	
 }
