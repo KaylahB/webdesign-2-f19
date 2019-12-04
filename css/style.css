@@ -115,19 +115,21 @@ img{
 /*biography*/
 .biography{
 	width: 100%;
-	padding: 100px 100px 100px 100px;
+	padding: 100px 0px;
 	background-color:#234441;
+	background-size: cover;
 }
 
 .biography{
 	width: 100%;
-	padding: 100px 100px 100px 100px;
+	padding: 100px 0px;
 	background-color:#234441;
+	background-size: cover;
 }
 
 .biography img{
 	border-radius:0%;
-	margin-top:-100;
+	margin-top:-98;
 	padding-bottom:30px;
 } 
 
@@ -142,15 +144,18 @@ img{
 /*live-preformances*/
 
 
-.live-preformances{
+.live-performances{
 		width: 100%;
-	padding: 100px 100px 100px 100px;
+	padding: 100px 0px;
 	background-color:#234441;
  background: url("../images/Ella (1).svg")no-repeat;
+	background-position: center;
+	background-position-y: 50%;
 	background-size:cover;
 	
+	
 }
-.live-preformances{
+.live-performances{
 	width: 100%;
 	padding: 100px 100px 100px 100px;
 	background-color:#234441;
@@ -158,10 +163,10 @@ img{
 	
 }
 
-.live-preformances img{
+.live-performances img{
 	
-	border-radius: 0%;
-	padding-bottom: 10px;
+	border-radius: 20%;
+	padding-bottom: 30px;
 	
 	
 	
@@ -184,6 +189,29 @@ img{
 	padding-bottom: 40px;
 }
  
+.modern-influence{
+	width:100%;
+	padding:100px 0px;
+	background-color:#234441;
+ background: url("../images/career_elle.jpg")no-repeat;
+	background-position: center;
+	background-position-y: 50%;
+	background-size:cover;
+}
+	
+	.modern-influence img{
+	width:200px;
+	margin: auto;
+	margin-bottom:10px;
+	border-radius:0%;
+	padding-bottom:-40px;
+}
+	.modern-influence-txt {
+margin-left:40px;	
+width: 300px;
+padding: 10px 20px;
+}
+	
 
 
 .atist-small{
@@ -215,29 +243,28 @@ background:#234441;
 }
  
 .albums img{
-	border-radius: 17%;
-	padding-bottom: 20px;
+	border-radius:0%;
+	padding-bottom:0px;
 }
 
 
 /*career*/
 .career{
 	width: 100%;
-	padding: 100px 0 100px 0;
-background: rgb(9,23,46);
-background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+	padding: 100px 0px;
+background-image: url("../images/career_elle.jpg")no-repeat;
+	background-position-y: 50%;
+	background-position:cover;
 }
 
 .career{
 	width: 100%;
 	padding: 100px 0 100px 0;
-	background-color:#efefef;
-	padding-bottom:-20px;
 	
 }
 .career img{
-	border-radius: 17%;
-	padding-bottom: 20px;
+	border-radius:100%;
+	padding-bottom:0px;
 }
 
 .career-copy{
@@ -261,66 +288,6 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
   float:left;
   margin-bottom:20px;
 }
-
-.boxgrid h3{
-  margin: 10px 10px 0 10px;
-  color: #ffffff;
-  font:18pt 'Abel', sans-serif;
-  letter-spacing:-1px;
-  font-weight: bold;  
-}
-
-
-.boxgrid p{
-  padding:0 10px;
-  color:red;
-  font-weight:bold;
-  font:10pt'Arial',san-serif;
-}
-
-.boxgrid{
-  
-  width:300px;
-  height:260px;
-  float:left;
-  background: #234441;
-  overflow: hidden;
-  position: relative;
-  boarder-radius: 10px;
-}
-
-.boxgrid img{
-  position:absolute;
-  top:0;
-  left:0;
-  border:0;
-  
-}
-
-.boxcaption{
-  float:left;
-  position:absolute;
-  background-color:#000000;
-  height:100px;
-  width:100%;
-  opacity:.8;
-}
-
-.boxgrid a {
-  color:#ffffff;
-  text-decoration:none;
-}
-
-.captionfull .boxcaption{
-  top:260px;
-  left:0;
-}
-.caption .boxcaption{
-  top:220px;
-  left:0;
-}
-
-
 
 
 
@@ -351,9 +318,10 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
 .contact{
 	width: 100%;
 	padding: 100px 0;
-	background: rgb(9,23,46);
-background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
-	
+	background-image:url("../images/ella-fitzgerald143.jpg")no-repeat;
+	background-position: center;
+	background-position-y:0%;
+	background-size:cover;
 }
 
 .contact-form input[type="text"],
