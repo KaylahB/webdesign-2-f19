@@ -1,30 +1,26 @@
 /* header */
 
 header{
-	width: 100%;
+	width:100%;
 	background-color:#937127;
-	position: fixed;
+	position:fixed;
 	top:0;
-	z-index: 1000;
-	padding: 15px 10px 8px 0;
+	z-index:1000;
+	padding:19px 12px 9px 0;
 }
 .logo{
-	
-	width:15%;
-	height: 500px;
+	width: 350px;
+	height: 400px;
 	position:fixed;
 	float :left;
-	margin-top:-10px;
-	padding-right:7px;
-	background: url("../images/logo-ella-fitz.svg")no-repeat;
+	margin-top:-100px;
+	margin-left:-200px;
 	
 }
-
-
 nav{
 	
 	float:right;
-	padding-left:100px;
+	padding-left:200px;
 }
 
 nav ul{
@@ -33,30 +29,30 @@ nav ul{
 }
 
 nav li {
-	display: inline-block;
+	display:inline-block;
 	font-size: .80em;
 	font-weight:60;
-	text-transform :uppercase;
+	text-transform:uppercase;
 	letter-spacing:.1em;
-	padding-right:10px;
+	padding-right:20px;
 	cursor: pointer ;
 	
 }
 nav li a:link{
-	color:#D6A231;
+	color:#FFFFFF;
 	text-decoration:none;
 }
 nav li a:visited{
-	color:#FFFFFF;
+	color:#D6A231;
 	
 	}
 	nav li a:hover{
-	color:#FFFFFF;
+	color:#D6A231;
  	text-decoration: none;
 	}
 	
 nav li a:active{
-	color:#FFFFFF;
+	color:#D6A231;
 }
 
 .section-head{
@@ -70,23 +66,15 @@ nav li a:active{
 	
 }
 	
-/*hero image*/
-
-
-	
-
+/*hero-image*/
 
 .hero-image{
-	width:100%;
-	max-height:2000px;
-	overflow: hidden;
-	
-	
-}
-img{
 	
 	width:100%;
-	display: block;
+	height:100%;
+	max-width:inherit;
+	display:block;
+	position: relative;
 	
 	
 }
@@ -97,8 +85,9 @@ img{
 	width: 840px;
 	z-index: 100;
 	background-repeat: no-repeat;
-	background-position: bottom;
-	overflow: visible;
+	background-position:bottom;
+	overflow:visible;
+	background-size:cover;
 	 
 	
 }
@@ -143,8 +132,8 @@ img{
 
 
 .live-preformances{
-		width: 100%;
-	padding: 100px 100px 100px 100px;
+		width:100%;
+	padding:100px 100px 100px 100px;
 	background-color:#234441;
  background: url("../images/Ella (1).svg")no-repeat;
 	background-size:cover;
@@ -152,7 +141,7 @@ img{
 }
 .live-preformances{
 	width: 100%;
-	padding: 100px 100px 100px 100px;
+	padding:50px;
 	background-color:#234441;
 	margin-right: auto;
 	
@@ -161,7 +150,7 @@ img{
 .live-preformances img{
 	
 	border-radius: 0%;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	
 	
 	
@@ -184,7 +173,37 @@ img{
 	padding-bottom: 40px;
 }
  
+/*modern-influence*/
 
+.modern-influence{
+	
+	width:100%;
+	padding: 100px 0;
+	background: url("../images/photo.svg")no-repeat;
+	background-size:cover;
+}
+	
+
+.modern-influence img{
+	width:200px;
+	margin-left:0px;
+	margin-bottom:10px;
+	border-radius:10%;
+	padding-bottom:-40px;
+	}
+	
+.modern-influence-txt{
+margin-left:40px;	
+width: 300px;
+padding: 10px 20px;
+}
+
+.modern-influence-copy{
+	margin-left:-1px;
+	width: 300px;
+	text-align:left;
+
+}
 
 .atist-small{
 	width:100%;
@@ -224,8 +243,7 @@ background:#234441;
 .career{
 	width: 100%;
 	padding: 100px 0 100px 0;
-background: rgb(9,23,46);
-background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
+background-image:url();
 }
 
 .career{
@@ -262,63 +280,6 @@ background: linear-gradient(90deg, rgba(9,23,46,1) 0%, rgba(34,93,157,1) 84%);
   margin-bottom:20px;
 }
 
-.boxgrid h3{
-  margin: 10px 10px 0 10px;
-  color: #ffffff;
-  font:18pt 'Abel', sans-serif;
-  letter-spacing:-1px;
-  font-weight: bold;  
-}
-
-
-.boxgrid p{
-  padding:0 10px;
-  color:red;
-  font-weight:bold;
-  font:10pt'Arial',san-serif;
-}
-
-.boxgrid{
-  
-  width:300px;
-  height:260px;
-  float:left;
-  background: #234441;
-  overflow: hidden;
-  position: relative;
-  boarder-radius: 10px;
-}
-
-.boxgrid img{
-  position:absolute;
-  top:0;
-  left:0;
-  border:0;
-  
-}
-
-.boxcaption{
-  float:left;
-  position:absolute;
-  background-color:#000000;
-  height:100px;
-  width:100%;
-  opacity:.8;
-}
-
-.boxgrid a {
-  color:#ffffff;
-  text-decoration:none;
-}
-
-.captionfull .boxcaption{
-  top:260px;
-  left:0;
-}
-.caption .boxcaption{
-  top:220px;
-  left:0;
-}
 
 
 
