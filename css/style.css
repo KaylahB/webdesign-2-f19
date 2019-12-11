@@ -5,8 +5,17 @@
   float: left;
   background-color: #ffffff; 
 }
+h1{
+	color:#ffffff;
+}
 
+h2{
+	text-align: center;
+}
 
+.section-head h2 {
+	margin: 12px;
+}
 header{
   width: 100%;
   height: 80px;
@@ -18,9 +27,20 @@ header{
 	
 	
 }
+
+.type-overlay{
+	width:100%;
+	position:absolute;
+	top:700px;
+	z-index: 5;
+	text-align: center;
+	color:#ffffff;
+	
+}
 .video-gallery{ 
 	background-color:#234441;
-	padding:100px 0;
+	width: 100%;
+	padding: 100px 100px 100px 100px;
 	margin-right: 20px;
 	
 	
@@ -121,7 +141,7 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Great Vibes', cursive;
   font-size: 30px;
 }
 section.module p {
@@ -142,7 +162,7 @@ width:-30%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-	display:block;
+	display:block !important;
 }
 section.module.parallax h1 {
   margin-top:0;
@@ -155,20 +175,27 @@ section.module.parallax h1 {
 }
 section.module.parallax-1 {
   background-image: url("../images/LL.jpg");
-		width: 100%;
-	display:block;
+		width:100%;
+	padding: 100px 100px 100px 100px;
+	display:block !important;
 	position:relative;
+	background-size: cover;
 
 }
 section.module.parallax-2 {
   background-image: url("../images/image-asset.jpeg");
 	width:auto;
-	height:100%;
-	display:block;
+	width:100%;
+	padding: 100px 100px 100px 100px;
+	display:block !important;
 	position: relative;
+	background-size: cover;
 }
 section.module.parallax-3 {
   background-image: url("../images/Ella-Fitzgerald (1).jpg");
+	background-size: cover;
+	width:100%;
+	padding: 100px 100px ;
 }
 
 
@@ -185,7 +212,8 @@ section.module.parallax-3 {
   color: #937127;
   font:18pt'Abel', sans-serif;
   letter-spacing:-1px;
-  font-weight: bold;  
+  font-weight: bold;
+	text-align: center;
 }
 
 
@@ -194,6 +222,7 @@ section.module.parallax-3 {
   color:white;
   font-weight:bold;
   font:10pt'Abel', sans-serif;
+text-align: center;
 }
 
 .boxgrid{
@@ -205,6 +234,7 @@ section.module.parallax-3 {
   overflow: hidden;
   position: relative;
   boarder-radius: 10px;
+	
 }
 
 .boxgrid img{
@@ -222,6 +252,7 @@ section.module.parallax-3 {
   height:100px;
   width:100%;
   opacity:.8;
+text-align: center;
 }
 
 .boxgrid a {
@@ -287,11 +318,9 @@ header{
 }
 
 
-.section-head{
-	text-align: center;
-	margin-bottom:45px;
-	margin-top:0;
-}
+
+
+
 .section-copy{
 	text-align: center;
 	font-size:1.2em;
@@ -329,7 +358,8 @@ header{
 .timeline{
 	padding: 100px 0;
 	width:100%;
-	float:left;
+	
+	text-align: center;
 }
 
 /*biography*/
@@ -337,6 +367,7 @@ header{
 	width: 100%;
 	padding: 100px 100px 100px 100px;
 	background-color:#234441;
+	text-align: center;
 }
 
 
@@ -345,32 +376,28 @@ header{
 	border-radius:0%;
 	margin-top:-100;
 	padding-bottom:30px;
+	
 } 
 
 
 .biography-head{
-	text-align: center;
 	margin-bottom:3px;
 	margin-top:0;
+	text-align: center;
 } 
 
 
 /*live-preformances*/
 
 
-.live-preformances{
-		width:100%;
-	padding:100px 100px 100px 100px;
-	background-color:#234441;
- background: url("../images/Ella (1).svg")no-repeat;
-	background-size:cover;
-	
-}
+
+
 .live-preformances{
 	width: 100%;
 	padding:50px;
 	background-color:#234441;
 	margin-right: auto;
+	
 	
 }
 
@@ -382,30 +409,14 @@ header{
 	
 	
 }
-.discography{
-	width:100%;
-	padding: 100px 0 100px 0;
- background-color:#234441;
-}
 
-.discography{
-	width: 100%;
-	padding: 100px 0 100px 0;
-	background-color:#234441;
-	
-} 
-
-.discography img{
-	border-radius: 0%;
-	padding-bottom: 40px;
-}
  
 /*modern-influence*/
 
 .modern-influence{
 	
 	width:100%;
-	padding: 100px 0;
+	padding: 100px 100px 100px 100px;
 	background: url("../images/photo.svg")no-repeat;
 	background-size:cover;
 }
@@ -424,89 +435,6 @@ margin-left:40px;
 width: 300px;
 padding: 10px 20px;
 }
-
-.modern-influence-copy{
-	margin-left:-1px;
-	width: 300px;
-	text-align:left;
-
-}
-
-.artist-small{
-	width:100%;
-	float:left;
-	padding:100px 0;
-	background-color: #050304;
-}
-
-.artist-large{
-	width: 100%;
-	float:left;
-	padding: 100px 0;
-	background-color: #f6f6f6;
-	
-}
-
-.albums{
-	width: 100%;
-	padding: 100px  100px 0;
-background:#234441;
-}
-
-.albums{
-	width: 100%;
-	padding: 100px 100px 100px 100px;
-	background-color:#234441;
-	
-}
- 
-.albums img{
-	border-radius: 17%;
-	padding-bottom: 20px;
-}
-
-
-/*career*/
-.career{
-	width: 100%;
-	padding: 100px 0 100px 0;
-background-image:url();
-}
-
-.career{
-	width: 100%;
-	padding: 100px 0 100px 0;
-	background-color:#efefef;
-	padding-bottom:-20px;
-	
-}
-.career img{
-	border-radius: 17%;
-	padding-bottom: 20px;
-}
-
-.career-copy{
-	margin-bottom: 20px;
-	margin-left:14px;
-	
-}
-
-/*gallery*/
-
-.gallery {
-  width: 100%;
-  padding: 100px 0;
-  float: left;
-  background-color: url("../images/photo.jpg")no-repeat; 
-	background-size: cover;
-  
-}
-
-.row{
-  float:left;
-  margin-bottom:20px;
-}
-
 
 
 
@@ -531,14 +459,19 @@ background-image:url();
 	
 	
 }
-
+.top-albums{
+	width:100%;
+	padding: 100px 0px ;
+	
+	
+}
 
 
 /*contact us*/
 
 .contact{
-	width: 100%;
-	padding: 100px 0;
+	width:100%;
+	padding: 100px 100px 100px 100px;
 	background-color: #234441 !important;
 }
 
@@ -555,21 +488,36 @@ background-image:url();
 	font-weight:100;
 	border-radius: 20px;
 }
-
-.contact-form textarea {
+.contact input#name{
+	
+	width:920px;
+}
+.contact textarea#message {
 	height:200px;
+	width:920px;
 } 
 
+.contact input#email{
+	
+	width:920px;
+}
+
+.contact input#email-Confirm{
+	
+	width:920px;
+}
 .contact img{
 	border-radius: 17%;
 
 }
 
+
+
 /*footer*/
 
 footer{
 	width: 100%;
-	padding: 50px 0 50px 0;
+	padding: 100px 100px 100px 100px;
 	text-align: left;
 	background:#BB9236;
 }
@@ -599,10 +547,12 @@ footer a :active{
 }
 
 footer img{
-	height:40px;
-	width:40px;
-	padding:20px;
-	
+	width: 300px;
+    height:80px;
+    float:left;
+    text-indent:-888em;
+    margin-left:56px;
+
 }
 
 .copyright{
@@ -631,9 +581,9 @@ footer img{
 	width: 50px;
 	height: 40px;
 	position:fixed;
-	float :left;
-	margin-top: 20px;
-	background: url("../images/UNESCO-logo 2.svg")no-repeat;
+	float:center;
+	margin-top:60px;
+	
 }
 /*desktopand and laptops*/
 
