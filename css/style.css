@@ -1,10 +1,6 @@
 /* header */
-.untitled {
-  width: 100%;
-  padding: 100px 0;
-  float: left;
-  background-color: #ffffff; 
-}
+
+
 h1{
 	color:#ffffff;
 }
@@ -50,8 +46,8 @@ header{
 	
 }
 
-.first-container{
-	width:1820px;
+container{
+	width:100%px;
 	height: 80px;
 } 
 .product {
@@ -67,7 +63,7 @@ header img{
   height:80px;
   float: left;
   text-indent:-999em;
-  margin-left: 540px;
+  margin-left:74px;
 }
 .branding a link{
   color:#56627A;
@@ -78,7 +74,7 @@ header img{
 nav{
   margin-top: 10px;
   float:right; 
-  margin-right: 140px;
+  margin-right:-9px;
 }
 
 nav ul{
@@ -293,12 +289,6 @@ text-align: center;
 
 
 
-
-
-
-
-
-
 header{
 	width:100%;
 	background-color:#937127;
@@ -363,7 +353,7 @@ header{
 }
 
 /*biography*/
-.biography{
+.bio{
 	width: 100%;
 	padding: 100px 100px 100px 100px;
 	background-color:#234441;
@@ -372,7 +362,7 @@ header{
 
 
 
-.biography img{
+.bio img{
 	border-radius:0%;
 	margin-top:-100;
 	padding-bottom:30px;
@@ -380,7 +370,7 @@ header{
 } 
 
 
-.biography-head{
+.bio header{
 	margin-bottom:3px;
 	margin-top:0;
 	text-align: center;
@@ -435,7 +425,6 @@ margin-left:40px;
 width: 300px;
 padding: 10px 20px;
 }
-
 
 
 
